@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h3>Hola Java</h3>
-	<form action="receber-nome.jsp">
+	<form action="ServletLogin" method="post">
 		<input name="nome" >
 		<input name="idade" >
 		<input type="submit" value="Enviar">
