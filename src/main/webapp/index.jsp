@@ -7,11 +7,29 @@
 <title>curso jsp</title>
 </head>
 <body>
-	<h3>Hola Java</h3>
+	<h3>Login</h3>
 	<form action="ServletLogin" method="post">
-		<input name="nome" >
-		<input name="idade" >
-		<input type="submit" value="Enviar">
+		<table>
+			<tr>
+				<td><label>Login</label><td>
+				<td>
+					<input name="Login" type="text">
+				<td>
+			<tr>
+			<tr>
+				<td><label>Senha</label><td>
+				<td>
+					<input name="Senha" type="password">
+				<td>
+			<tr>
+			<tr>
+				<td/>
+				<td>
+					<input type="submit" value="Enviar">
+				<td>
+			<tr>
+		</table>
 	</form>
+	<h4>${msg}</h4>
 </body>
 </html>
