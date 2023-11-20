@@ -13,13 +13,13 @@
 			<tr>
 				<td><label>Login</label><td>
 				<td>
-					<input name="Login" type="text">
+					<input name="login" type="text">
 				<td>
 			<tr>
 			<tr>
 				<td><label>Senha</label><td>
 				<td>
-					<input name="Senha" type="password">
+					<input name="senha" type="password">
 				<td>
 			<tr>
 			<tr>
